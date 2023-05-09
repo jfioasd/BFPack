@@ -1,4 +1,4 @@
-# BFpack
+# brainpack
 A brainfuck compressor slightly better than other BF encodings (such as [CompressedFuck](https://esolangs.org/wiki/CompressedFuck) or [BFZip](https://github.com/robbie01/BFZip/)).
 
 It encodes `>` as 2 bits, at the cost of making `,` and `.` 4 bits. This yields slightly better compression rates than the other BF encodings. The encoding is as follows:
